@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(190, 136, 54, 0.144);
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.068);
+}
+
+#welcomePage-el {
+  color: rgb(97, 8, 5);
+  font-size: 20px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+button {
+  font-size: 1em;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(0, 128, 0);
+  background-color: rgba(121, 192, 121, 0.171);
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(87, 190, 87);
+}
+.emergency {
+  color: rgb(255, 0, 0);
+  background-color: rgba(221, 173, 173, 0.26);
+}
+.emergency:hover {
+  color: rgba(255, 0, 0, 0.514);
+}
